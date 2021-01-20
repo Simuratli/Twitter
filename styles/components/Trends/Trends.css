@@ -1,0 +1,139 @@
+.trends{
+    flex: 1.1;
+    color: wheat;
+    padding: 10px 30px;
+}
+
+.search_container{
+    width: 80%;
+    background: #202327;
+    border: 1px solid #202327;
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search_container input {
+    padding: 11px;
+    background-color: transparent;
+    border: 0;
+    width: 90%;
+    outline: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E767D;
+}
+
+.search_container button svg {
+    width: 18px;
+    height: 18px;
+}
+
+.search_container button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 11px;
+    margin-top: 5px;
+}
+
+.bg-gray{
+    background: #15181C;
+    border-bottom: 0.5px solid #2F3336;
+}
+
+.trends_today{
+    width: 80%;
+}
+
+.trends_today_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.trends_today_head h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.search{
+    margin-bottom: 24px;
+}
+
+.trend_today_item{
+    padding: 15px;
+}
+
+.tt_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:3px;
+}
+
+.tt_top p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6E767D;
+}
+.tt{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.tt_bottom{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E767D;
+}
+
+.trend_bottom{
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+}
+
+.trend_bottom a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+
+@media(max-width:1000px){
+    .trends{
+        display: none
+    } 
+    .navbar{
+        flex: 0.5;
+    }
+    .fixed{
+        width: auto
+    }
+    .content{
+        flex: 4;
+    }
+}
+

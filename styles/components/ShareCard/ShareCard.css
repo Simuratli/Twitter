@@ -1,0 +1,82 @@
+.share_card{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    border-bottom: 10px solid #202327;;
+}
+
+
+.share_card_profile svg{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.share_card_items{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+.share_card_items .textarea {
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    min-height: 40px;
+    font-size: 19px;
+    resize: none;
+    line-height: 23px;
+    width: 100%;
+    color: #6E767D;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+[contenteditable][placeholder]:empty:before{
+    content: attr(placeholder);
+    color: #6E767D;
+    background-color: transparent;
+}
+
+.share_card_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon_buttons_container{
+    display: flex;
+    align-items: center;
+}
+
+.share_card_buttons .icon_button{
+    width: 39px;
+    height: 39px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.share_tweet_button{
+    width: 80px;
+    height: 39px;
+    background: #1DA1F2;
+    border-radius: 47px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}

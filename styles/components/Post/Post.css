@@ -1,0 +1,121 @@
+.post {
+    padding:20px;
+    display: flex;
+    border-bottom: 0.5px solid #2F3336;
+}
+
+.post_content{
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post_image{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.post_butons div{
+   flex:1 1 0 ;
+   margin-top: 12px;
+}
+
+.post_butons{
+    display: flex;
+}
+
+.post_image svg {
+    width: 110% !important;
+    position: relative;
+}
+
+.post_profile_name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 5px 0px;
+}
+
+.post_profile_nick{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E767D;
+    margin: 5px 0px;
+}
+
+.post_profile_text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.post_button{
+    cursor:pointer
+}
+
+.post_button{
+    display: flex;
+    align-items: center;
+    color:rgb(91, 112, 131);
+    font-family: 'Source Sans Pro', sans-serif;
+    gap:10px;
+    transition: 0.5s ease-in;
+}
+
+.post_butons .post_button:hover span {
+    background: rgba(62, 177, 248, 0.438);
+    border-radius: 50%;
+}
+
+.post_butons .post_button:hover .retweet {
+    background: rgba(128, 240, 133, 0.438);
+    border-radius: 50%;
+}
+
+.post_butons .post_button:hover .like {
+    background: rgba(236, 86, 86, 0.438);
+    border-radius: 50%;
+}
+
+.post_butons .post_button:hover .like svg path {
+    fill:  #f03737 !important;
+    border-radius: 50%;
+}
+
+.post_butons .lke:hover  {
+    color: #f03737 !important;
+}
+.post_butons .post_button:hover .retweet svg path {
+    fill:  #1be046 !important;
+    border-radius: 50%;
+}
+
+.post_butons .post_button:hover  {
+    color: #1B95E0;
+}
+
+.post_butons .rtwt:hover  {
+    color: #1be046;
+}
+
+
+.post_button:hover span svg path{
+    fill:  #1B95E0 !important;
+}
+
+
+.post_button span{
+    display:grid;
+    place-items: center;
+    border-radius: 50%;
+    padding: 6px;
+}

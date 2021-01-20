@@ -1,0 +1,25 @@
+.content__heading{
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2F3336;
+}
+
+.content__heading h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.content{
+    flex: 2;
+    border-right: 0.5px solid #2F3336;
+    border-left: 0.5px solid #2F3336;
+}
+

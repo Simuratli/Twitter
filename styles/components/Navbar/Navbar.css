@@ -1,0 +1,162 @@
+.navbar{
+    flex: 0.9;
+    text-align: left;
+    height: 100vh;
+    
+}
+
+.fixed{
+    position: fixed;
+    left:0;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+
+.navbar--center{
+    margin-left: 9.499319727891156%;
+    
+}
+
+.navbar__logo {
+    width: 47px;
+    height: 47px;
+}
+
+.navbar__logo svg{
+    width: 26px;
+    height: 26px;
+    width: 26px;
+}
+
+.navbar__list {
+    width: max-content;
+}
+
+.navbar{
+   width: 20%;
+}
+
+.navbar__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar__logo:hover{
+    background: rgba(29, 161, 242, 0.2);
+}
+
+.navbar__profile{
+    display: flex;
+    transition: 0.5s ease-in-out;
+    width: 235px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding: 12px;
+    border-radius: 47px;
+    justify-content: space-around;
+}
+
+
+.navbar__profile__name{
+    color: white;
+    flex: 2;
+    margin-left: 10px;
+}
+
+.navbar__profile__name p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.nick{
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500 !important;
+    color: #6E767D !important;
+}
+
+.navbar__profile:hover {
+    background: rgba(29, 161, 242, 0.2);
+}
+
+.sm{
+    display: none;
+}
+
+
+@media(max-width:1269px){
+    .list__title{
+        display: none;
+    }
+    .navbar__tweet{
+        display: none;
+    }
+    .sm{
+        display: block !important;
+        width: 47px;
+        display: none;
+        height: 47px;
+        background: #1DA1F2;
+        border-radius: 50%;
+        border: 0;
+        margin-left: 8px;
+        display: grid;
+        place-content: center;
+    }
+    .sm svg {
+        width: 20px;
+    }
+    .sm svg path{
+        fill: white;
+    }
+    .navbar__profile{
+        width: max-content;
+    }
+
+    .navbar__profile__name{
+        display: none;
+    }
+    .navbar__profile .arr{
+        display: none;
+    }
+    .navbar{
+        position: relative !important;
+    }
+    .fixed{
+        position:fixed;
+        width: 100%;
+    }
+}
+
+
+
+@media(max-width:600px){
+    .main{
+        display: block;
+    }
+    .responsive_nav {
+        display: flex !important ;
+    }
+    .navbar{
+        display:none;
+    }
+}
+
+
+.post_profile img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+

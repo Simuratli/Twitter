@@ -1,0 +1,26 @@
+.responsive_nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+    display: none;
+}
+
+.responsive_nav_item{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.responsive_nav_item svg path {
+    fill: white;
+}
+
+.responsive_nav_item svg{
+    width: 30px;
+}
